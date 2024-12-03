@@ -1,19 +1,13 @@
 import pandas as pd
 import numpy as np
 
-# File paths
-file1_path = 'C:/Users/aiden/Desktop/project/gdp_Punjab1.csv'
-file2_path = 'C:/Users/aiden/Desktop/project/gdp_Punjab2.csv'
-file3_path = 'C:/Users/aiden/Desktop/project/admission_data.csv'
-file4_path = 'C:/Users/aiden/Desktop/project/pollution_data.csv'
-file5_path = 'C:/Users/aiden/Desktop/project/mortality_data.csv'
 
 # Read files
-gdp_punjab1 = pd.read_csv(file1_path)
-gdp_punjab2 = pd.read_csv(file2_path)
-admission_data = pd.read_csv(file3_path)
-pollution_data = pd.read_csv(file4_path)
-mortality_data = pd.read_csv(file5_path)
+gdp_punjab1 = pd.read_csv('gdp_Punjab1.csv')
+gdp_punjab2 = pd.read_csv('gdp_Punjab2.csv')
+admission_data = pd.read_csv('admission_data.csv')
+pollution_data = pd.read_csv('pollution_data.csv')
+mortality_data = pd.read_csv('mortality_data.csv')
 
 # GDP data cleaning
 def clean_gdp_data(df):
@@ -107,6 +101,6 @@ final_data = pd.merge(
 )
 
 # Save final data
-final_data.to_csv('C:/Users/aiden/Desktop/project/final_data.csv', index=False)
+final_data.to_csv('final_data.csv', index=False)
 
 print("Data cleaning and merging complete. Final dataset saved to 'final_data.csv'.")

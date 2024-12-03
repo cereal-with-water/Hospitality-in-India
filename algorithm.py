@@ -14,8 +14,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 1. Load data
-final_data_path = 'C:/Users/aiden/Desktop/project/final_data.csv'
-final_data = pd.read_csv(final_data_path, parse_dates=['DATE'])
+final_data = pd.read_csv('final_data.csv', parse_dates=['DATE'])
 
 print("Data successfully loaded.")
 print(final_data.head())
