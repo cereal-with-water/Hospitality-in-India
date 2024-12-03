@@ -50,7 +50,10 @@ plt.show()
 
 # Trend of AQI over the years
 plt.figure(figsize=(10, 6))
-sns.lineplot(x='Year', y='AQI', data=final_data, marker='o')
+sns.lineplot(x=final_data['DATE'].dt.year.astype(int),
+             y=final_data['AQI'],
+             data=final_data,
+             marker='o')
 plt.title('AQI Trend by Year')
 plt.show()
 
@@ -83,15 +86,7 @@ elif 'GENDER_y' in final_data.columns:
     final_data = final_data.drop(['GENDER_y', 'GENDER'], axis=1)
 
 # 3.3 Drop unnecessary variables
-final_data = final_data.drop(['DATE', 'D.O.A', 'D.O.D', 'LOCATION'], axis=1, errors='ignore')
-
-# 3.4 Handle missing values (if needed)
-# If all values in GDP are NaN, drop the column; otherwise, fill with the mean
-if final_data['GDP'].isnull().all():
-    print("Warning: All values in 'GDP' are NaN. Dropping 'GDP' from modeling.")
-    final_data = final_data.drop(['GDP'], axis=1)
-else:
-    final_data['GDP'] = final_data['GDP'].fillna(final_data['GDP'].mean())
+final_data = final_data.drop(['DATE', 'D.O.A', 'D.O.D'], axis=1, errors='ignore')
 
 print("\nData after preprocessing:")
 print(final_data.info())
