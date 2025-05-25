@@ -66,7 +66,7 @@ We used a combination of regression-based models to predict hospital stay durati
 - **Gender**: Minimal effect on hospital stay duration
 
 <p align="center">
-  <img src="Screenshots/Feature.jpeg" width="400" alt="Feature Importance"/>
+  <img src="Screenshots/Feature.jpeg" width="700" alt="Feature Importance"/>
 </p>
 
 ### 🔍 Feature Importance
@@ -84,7 +84,7 @@ We used a combination of regression-based models to predict hospital stay durati
 - Mean AQI dropped ~40 units between 2017 and 2019
 
 <p align="center">
-  <img src="Screenshots/AQI_Trend.jpeg" width="400" alt="AQI Trend"/>
+  <img src="Screenshots/AQI_Trend.jpeg" width="500" alt="AQI Trend"/>
   <img src="Screenshots/AQI_Duration.jpeg" width="400" alt="AQI vs Duration"/>
 </p>
 
