@@ -134,13 +134,6 @@ We presented the findings in a comprehensive slide deck. Some key visual slides 
 
 ---
 
-## 👥 Contributors
-
-Group 10 — Aiden Kim, Colby Ogrin, Shantanu Patil, Martina Veit Acosta  
-Course: CS 5821  
-Instructor: Dr. Robert Makin
-
----
 
 ## 📁 Repository Structure
 
