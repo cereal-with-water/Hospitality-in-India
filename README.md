@@ -66,7 +66,7 @@ We used a combination of regression-based models to predict hospital stay durati
 - **Gender**: Minimal effect on hospital stay duration
 
 <p align="center">
-  <img src="Screenshots/feature_importance.png" width="400" alt="Feature Importance"/>
+  <img src="Screenshots/Feature.jpeg" width="400" alt="Feature Importance"/>
 </p>
 
 ### 🔍 Feature Importance
