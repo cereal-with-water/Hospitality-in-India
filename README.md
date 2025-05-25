@@ -75,7 +75,7 @@ We used a combination of regression-based models to predict hospital stay durati
 - Pollution features were surprisingly less significant (<10%)
 
 <p align="center">
-  <img src="Screenshots/heatmap.png" width="450" alt="Correlation Heatmap"/>
+  <img src="Screenshots/Correlation_Heatmap.jpeg" width="450" alt="Correlation Heatmap"/>
 </p>
 
 ### 📉 Scatter and Trend Plots
@@ -84,8 +84,8 @@ We used a combination of regression-based models to predict hospital stay durati
 - Mean AQI dropped ~40 units between 2017 and 2019
 
 <p align="center">
-  <img src="Screenshots/aqi_trend.png" width="400" alt="AQI Trend"/>
-  <img src="Screenshots/aqi_vs_duration.png" width="400" alt="AQI vs Duration"/>
+  <img src="Screenshots/AQI_Trend.jpeg" width="400" alt="AQI Trend"/>
+  <img src="Screenshots/AQI_Duration.jpeg" width="400" alt="AQI vs Duration"/>
 </p>
 
 ### 📐 Model Performance Limitations
