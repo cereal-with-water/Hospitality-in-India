@@ -96,21 +96,6 @@ We used a combination of regression-based models to predict hospital stay durati
 <br><br>
 
 
-## 🖼️ Presentation Highlights
-
-We presented the findings in a comprehensive slide deck. Some key visual slides include:
-
-<p align="center">
-  <img src="Screenshots/f4.png" alt="YOLOv8 Object Detection" width="400"/>
-  <img src="Screenshots/f5.png" alt="Metric 1" width="200"/>
-  <img src="Screenshots/f6.png" alt="Metric 2" width="200"/>
-  <img src="Screenshots/f7.png" alt="Metric 3" width="200"/>
-</p>
-
-> 📄 [Download the full presentation slides](./Group10_Presentation.pdf)
-
-<br><br>
-
 
 ## 🚧 Study Limitations
 
