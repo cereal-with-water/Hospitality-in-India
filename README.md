@@ -8,8 +8,6 @@ An integrated data science project that analyzes how air quality fluctuations an
 
 India has the world's highest pollution-related death toll. This project investigates whether air pollution factors (e.g., AQI, PM2.5, PM10) and demographics (e.g., age, gender) influence hospital stay durations. Using real data from Ludhiana, Punjab and various modeling techniques, we aim to explore both linear and nonlinear predictors of hospital admissions.
 
-> ⚠️ Note: Due to the project owner's request, the full source code cannot be made publicly available. This repository focuses on sharing our findings, methodology, and visual insights.
-
 ---
 
 ## 🧠 Hypothesis
