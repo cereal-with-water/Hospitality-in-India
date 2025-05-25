@@ -2,19 +2,21 @@
 
 An integrated data science project that analyzes how air quality fluctuations and demographic factors correlate with hospital admission durations in the Punjab region. The study includes statistical modeling, visualization, and a machine learning pipeline to explore environmental health impacts.
 
----
+<br><br>
 
 ## 📌 Project Overview
 
 India has the world's highest pollution-related death toll. This project investigates whether air pollution factors (e.g., AQI, PM2.5, PM10) and demographics (e.g., age, gender) influence hospital stay durations. Using real data from Ludhiana, Punjab and various modeling techniques, we aim to explore both linear and nonlinear predictors of hospital admissions.
 
----
+<br><br>
+
 
 ## 🧠 Hypothesis
 
 We hypothesized that air pollution metrics (AQI, PM2.5, PM10) and demographic attributes such as patient age would be significant predictors of hospital stay duration for respiratory illnesses in Punjab, India.
 
----
+<br><br>
+
 
 ## 🗂️ Dataset Details
 
@@ -30,7 +32,8 @@ Cleaned and merged from multiple sources (pollution data, hospital admission log
 | Age_y, Gender      | Hospital admission demographics                            |
 | Duration of Stay   | Target variable: length of hospital stay (in days)         |
 
----
+<br><br>
+
 
 ## 🔬 Methods
 
@@ -51,7 +54,8 @@ We used a combination of regression-based models to predict hospital stay durati
 
 > Random Forest performed best, but still with modest predictive power.
 
----
+<br><br>
+
 
 ## 📊 Key Findings
 
@@ -89,7 +93,8 @@ We used a combination of regression-based models to predict hospital stay durati
 - Best R² = 0.3324 → substantial error remains
 - Likely causes: Missing patient history, hospital capacity, diagnosis data
 
----
+<br><br>
+
 
 ## 🖼️ Presentation Highlights
 
@@ -104,7 +109,8 @@ We presented the findings in a comprehensive slide deck. Some key visual slides 
 
 > 📄 [Download the full presentation slides](./Group10_Presentation.pdf)
 
----
+<br><br>
+
 
 ## 🚧 Study Limitations
 
@@ -113,7 +119,8 @@ We presented the findings in a comprehensive slide deck. Some key visual slides 
 - Overlapping, highly correlated air metrics (multicollinearity)
 - Time alignment issues between health and pollution data
 
----
+<br><br>
+
 
 ## 🔭 Future Work
 
@@ -123,7 +130,8 @@ We presented the findings in a comprehensive slide deck. Some key visual slides 
 - Apply **time series** modeling to capture environmental fluctuations
 - Collect more granular and **longitudinal patient data**
 
----
+<br><br>
+
 
 ## 📜 References
 
@@ -132,7 +140,8 @@ We presented the findings in a comprehensive slide deck. Some key visual slides 
 3. Bollepalli, Sandeep C., et al. *Diagnostics*, vol. 12, no. 2, 2022.  
 4. Hero DMC Heart Institute, Punjab.  
 
----
+<br><br>
+
 
 
 ## 📁 Repository Structure
@@ -146,7 +155,8 @@ Group10_AirQuality/
 └── README.md
 ```
 
----
+<br><br>
+
 
 ## 📄 License
 
